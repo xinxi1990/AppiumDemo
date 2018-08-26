@@ -1,0 +1,12 @@
+automationName: "uiautomator2" # 大于等于Android7.0使用u2
+platformName : "Android"
+deviceName: "Android Emulator"
+platformVersion: "7.0" # 系统版本号必须写对
+appPackage: "com.xueqiu.android"
+appActivity: ".view.WelcomeActivityAlias"
+resetKeyboard: "1" #1表示true 重置键盘
+noReset: "1"  #1表示false  false表示每次需要重置app状态
+#fullReset: "1" #1表示true
+unicodeKeyboard: "1" #1表示true 设置支持中文
+newCommandTimeout: "60"
+#chromedriverExecutableDir: "/Users/xinxi/Documents/idea_Projcet/AppiumDemo/chromedriver/"
