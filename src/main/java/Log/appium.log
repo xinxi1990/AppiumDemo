@@ -1,1 +1,135 @@
-2018-08-06 06:08:19:709 - info: [Appium] Welcome to Appium v1.8.1
+2018-11-08 13:34:14:350 - info: [Appium] Welcome to Appium v1.9.0 (REV 7b1437d70b3a76ee940c6a229d3c658db5130120)
+2018-11-08 13:34:14:353 - info: [Appium] Non-default server args:
+2018-11-08 13:34:14:354 - info: [Appium]   address: 127.0.0.1
+2018-11-08 13:34:14:354 - info: [Appium]   sessionOverride: true
+2018-11-08 13:34:14:355 - info: [Appium]   log: /Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/Log/appium.log
+2018-11-08 13:34:14:355 - info: [Appium]   relaxedSecurityEnabled: true
+2018-11-08 13:34:14:405 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2018-11-08 13:34:15:065 - info: [HTTP] --> POST /wd/hub/session
+2018-11-08 13:34:15:065 - info: [HTTP] {"desiredCapabilities":{"app":"/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app","noReset":true,"newCommandTimeout":1800,"platformVersion":"11.2","automationName":"XCUITest","platformName":"iOS","udid":"DDAC13B0-786D-4DC7-A920-4BEAF56CD616","deviceName":"iPhone Simulator","wdaConnectionTimeout":1800000,"autoAcceptAlerts":true,"wdaLocalPort":8001},"capabilities":{"alwaysMatch":{"appium:app":"/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app","appium:autoAcceptAlerts":true,"appium:automationName":"XCUITest","appium:deviceName":"iPhone Simulator","appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"11.2","appium:udid":"DDAC13B0-786D-4DC7-A920-4BEAF56CD616","appium:wdaConnectionTimeout":1800000,"appium:wdaLocalPort":8001},"firstMatch":[{}]}}
+2018-11-08 13:34:15:067 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app","noReset":true,"newCommandTimeout":1800,"platformVersion":"11.2","automationName":"XCUITest","platformName":"iOS","udid":"DDAC13B0-786D-4DC7-A920-4BEAF56CD616","deviceName":"iPhone Simulator","wdaConnectionTimeout":1800000,"autoAcceptAlerts":true,"wdaLocalPort":8001},null,{"alwaysMatch":{"appium:app":"/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app","appium:autoAcceptAlerts":true,"appium:automationName":"XCUITest","appium:deviceName":"iPhone Simulator","appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"11.2","appium:udid":"DDAC13B0-786D-4DC7-A920-4BEAF56CD616","appium:wdaConnectionTimeout":1800000,"appium:wdaLocalPort":8001},"firstMatch":[{}]}]
+2018-11-08 13:34:15:068 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1541684055068 (21:34:15 GMT+0800 (CST))
+2018-11-08 13:34:15:074 - info: [Appium] Creating new XCUITestDriver (v2.92.0) session
+2018-11-08 13:34:15:075 - info: [Appium] Capabilities:
+2018-11-08 13:34:15:075 - info: [Appium]   platformName: ios
+2018-11-08 13:34:15:075 - info: [Appium]   app: /Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app
+2018-11-08 13:34:15:075 - info: [Appium]   autoAcceptAlerts: true
+2018-11-08 13:34:15:075 - info: [Appium]   automationName: XCUITest
+2018-11-08 13:34:15:075 - info: [Appium]   deviceName: iPhone Simulator
+2018-11-08 13:34:15:075 - info: [Appium]   newCommandTimeout: 1800
+2018-11-08 13:34:15:075 - info: [Appium]   noReset: true
+2018-11-08 13:34:15:075 - info: [Appium]   platformVersion: 11.2
+2018-11-08 13:34:15:076 - info: [Appium]   udid: DDAC13B0-786D-4DC7-A920-4BEAF56CD616
+2018-11-08 13:34:15:076 - info: [Appium]   wdaConnectionTimeout: 1800000
+2018-11-08 13:34:15:076 - info: [Appium]   wdaLocalPort: 8001
+2018-11-08 13:34:15:078 - info: [Appium] Applying relaxed security to 'XCUITestDriver' as per server command line argument
+2018-11-08 13:34:15:079 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"/Users/xinxi/Docume... were provided
+2018-11-08 13:34:15:079 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-11-08 13:34:15:085 - warn: [XCUITest] The capabilities 'autoAcceptAlerts' and 'autoDismissAlerts' do not work for XCUITest-based tests in NATIVE context. Please adjust your alert handling accordingly.
+2018-11-08 13:34:15:086 - info: [BaseDriver] Session created with session id: d3c0e070-1e0f-4547-bc6c-3246ec626f9b
+2018-11-08 13:34:15:147 - info: [debug] [XCUITest] Current user: 'xinxi'
+2018-11-08 13:34:15:314 - info: [debug] [XCUITest] Xcode version set to '9.2' (tools v9.4.1.0.1.1528165917)
+2018-11-08 13:34:15:330 - info: [debug] [XCUITest] iOS SDK Version set to '11.2'
+2018-11-08 13:34:15:330 - info: [debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1541684055330 (21:34:15 GMT+0800 (CST))
+2018-11-08 13:34:15:331 - info: [debug] [XCUITest] Changing deviceName from 'iPhone Simulator' to 'iPhone 6'
+2018-11-08 13:34:15:964 - info: [iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid 'DDAC13B0-786D-4DC7-A920-4BEAF56CD616'
+2018-11-08 13:34:15:965 - info: [XCUITest] Determining device to run tests on: udid: 'DDAC13B0-786D-4DC7-A920-4BEAF56CD616', real device: false
+2018-11-08 13:34:15:967 - info: [BaseDriver] Using local app '/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app'
+2018-11-08 13:34:15:967 - info: [debug] [BaseDriver] Event 'appConfigured' logged at 1541684055967 (21:34:15 GMT+0800 (CST))
+2018-11-08 13:34:15:967 - info: [debug] [XCUITest] Checking whether app '/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app' is actually present on file system
+2018-11-08 13:34:15:968 - info: [debug] [XCUITest] App is present
+2018-11-08 13:34:15:973 - info: [debug] [iOS] Getting bundle ID from app '/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app': 'com.iOS.Demo.xinxi1'
+2018-11-08 13:34:15:973 - info: [debug] [BaseDriver] Event 'resetStarted' logged at 1541684055973 (21:34:15 GMT+0800 (CST))
+2018-11-08 13:34:15:974 - info: [debug] [XCUITest] Reset: noReset is on. Leaving simulator as is
+2018-11-08 13:34:15:974 - info: [debug] [BaseDriver] Event 'resetComplete' logged at 1541684055974 (21:34:15 GMT+0800 (CST))
+2018-11-08 13:34:16:085 - warn: [XCUITest] Continuing without capturing device logs: iOS Simulator with udid DDAC13B0-786D-4DC7-A920-4BEAF56CD616 is not running
+2018-11-08 13:34:16:085 - info: [XCUITest] Setting up simulator
+2018-11-08 13:34:16:086 - info: [debug] [iOS] No reason to set locale
+2018-11-08 13:34:16:087 - info: [debug] [iOS] No iOS / app preferences to set
+2018-11-08 13:34:16:092 - info: [debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/xinxi/Library/Developer/CoreSimulator/Devices/DDAC13B0-786D-4DC7-A920-4BEAF56CD616/data/Library/Caches/com.apple.mobile.installd.staging
+2018-11-08 13:34:16:094 - info: [debug] [iOSSim] Setting preferences of DDAC13B0-786D-4DC7-A920-4BEAF56CD616 Simulator to {"ConnectHardwareKeyboard":false}
+2018-11-08 13:34:16:094 - info: [debug] [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+2018-11-08 13:34:16:103 - info: [debug] [iOSSim] Updated DDAC13B0-786D-4DC7-A920-4BEAF56CD616 Simulator preferences at '/Users/xinxi/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"DDAC13B0-786D-4DC7-A920-4BEAF56CD616":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+2018-11-08 13:34:16:681 - info: [iOSSim] Booting Simulator with UDID DDAC13B0-786D-4DC7-A920-4BEAF56CD616...
+2018-11-08 13:34:17:517 - info: [iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID DDAC13B0-786D-4DC7-A920-4BEAF56CD616 -ConnectHardwareKeyboard 0
+2018-11-08 13:34:35:072 - info: [iOSSim] Simulator with UDID DDAC13B0-786D-4DC7-A920-4BEAF56CD616 booted in 18 seconds
+2018-11-08 13:34:35:074 - info: [debug] [BaseDriver] Event 'simStarted' logged at 1541684075073 (21:34:35 GMT+0800 (CST))
+2018-11-08 13:34:35:534 - info: [debug] [XCUITest] Starting log capture for iOS Simulator with udid 'DDAC13B0-786D-4DC7-A920-4BEAF56CD616', using 'xcrun simctl spawn DDAC13B0-786D-4DC7-A920-4BEAF56CD616 log stream --style compact'
+2018-11-08 13:34:36:044 - info: [debug] [BaseDriver] Event 'logCaptureStarted' logged at 1541684076044 (21:34:36 GMT+0800 (CST))
+2018-11-08 13:34:36:046 - info: [debug] [XCUITest] Verifying application platform
+2018-11-08 13:34:36:048 - info: [debug] [XCUITest] CFBundleSupportedPlatforms: ["iPhoneOS"]
+2018-11-08 13:34:36:049 - warn: [XCUITest] *********************************
+2018-11-08 13:34:36:049 - warn: [XCUITest] Simulator architecture appears to be unsupported by the '/Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/App/UICatalog.app' application. Make sure the correct deployment target has been selected for its compilation in Xcode.
+2018-11-08 13:34:36:049 - warn: [XCUITest] Don't be surprised if the application fails to launch.
+2018-11-08 13:34:36:049 - warn: [XCUITest] *********************************
+2018-11-08 13:34:36:735 - info: [debug] [XCUITest] App 'com.iOS.Demo.xinxi1' is already installed. No need to reinstall.
+2018-11-08 13:34:36:735 - info: [debug] [BaseDriver] Event 'appInstalled' logged at 1541684076735 (21:34:36 GMT+0800 (CST))
+2018-11-08 13:34:36:737 - info: [XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2018-11-08 13:34:36:737 - info: [XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2018-11-08 13:34:36:870 - info: [debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8001 have been found
+2018-11-08 13:34:36:875 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:36:876 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:36:910 - info: [debug] [XCUITest] WDA is not listening at 'http://localhost:8001/'
+2018-11-08 13:34:36:911 - info: [debug] [XCUITest] WDA is currently not running
+2018-11-08 13:34:36:911 - info: [debug] [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2018-11-08 13:34:36:916 - info: [debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1541684076915 (21:34:36 GMT+0800 (CST))
+2018-11-08 13:34:36:917 - info: [XCUITest] Launching WebDriverAgent on the device
+2018-11-08 13:34:36:926 - info: [debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+2018-11-08 13:34:36:930 - info: [debug] [XCUITest] Killing running processes 'xcodebuild.*DDAC13B0-786D-4DC7-A920-4BEAF56CD616, iproxy 8001, DDAC13B0-786D-4DC7-A920-4BEAF56CD616.*XCTRunner' for the device DDAC13B0-786D-4DC7-A920-4BEAF56CD616...
+2018-11-08 13:34:36:974 - info: [debug] [XCUITest] 'pgrep -nif xcodebuild.*DDAC13B0-786D-4DC7-A920-4BEAF56CD616' didn't detect any matching processes. Return code: 1
+2018-11-08 13:34:37:018 - info: [debug] [XCUITest] 'pgrep -nif iproxy 8001' didn't detect any matching processes. Return code: 1
+2018-11-08 13:34:37:069 - info: [debug] [XCUITest] 'pgrep -nif DDAC13B0-786D-4DC7-A920-4BEAF56CD616.*XCTRunner' didn't detect any matching processes. Return code: 1
+2018-11-08 13:34:37:071 - info: [debug] [XCUITest] Using Xcode 9.2, so fixing WDA codebase
+2018-11-08 13:34:37:086 - info: [debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=DDAC13B0-786D-4DC7-A920-4BEAF56CD616 IPHONEOS_DEPLOYMENT_TARGET=11.2' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2018-11-08 13:34:37:088 - info: [debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+2018-11-08 13:34:43:693 - info: [debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2018-11-08 13:34:43:693 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:43:694 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:44:704 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:44:704 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:45:713 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:45:714 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:46:052 - info: [debug] [XCUITest] Log file for xcodebuild test: /var/folders/xb/mw_d94bd6xl1xr4q878v25nh0000gn/T/com.apple.dt.XCTest/IDETestRunSession-08998397-C9E1-4EF7-A469-CCB3C09487F2/WebDriverAgentRunner-319436A8-1C13-454F-828B-0CC0540CD654/Session-WebDriverAgentRunner-2018-11-08_213446-iI0qbq.log
+2018-11-08 13:34:46:722 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:46:722 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:47:734 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:47:735 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:48:746 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:48:746 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:49:750 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:49:750 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:50:756 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:50:756 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:51:764 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:51:764 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:52:774 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-11-08 13:34:52:775 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8001/status] with no body
+2018-11-08 13:34:52:788 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2\",\n      \"sdkVersion\" : \"11.2\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2\",\n      \"ip\" : \"192.168.1.104\"\n    },\n    \"build\" : {\n      \"time\" : \"Oct  9 2018 20:01:22\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"0B105F5C-478B-42E2-9CE2-3CF11B81FAD1\",\n  \"status\" : 0\n}"
+2018-11-08 13:34:52:788 - info: [debug] [XCUITest] WebDriverAgent information:
+2018-11-08 13:34:52:788 - info: [debug] [XCUITest] {
+2018-11-08 13:34:52:788 - info: [debug] [XCUITest]   "state": "success",
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]   "os": {
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]     "name": "iOS",
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]     "version": "11.2",
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]     "sdkVersion": "11.2"
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]   },
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]   "ios": {
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]     "simulatorVersion": "11.2",
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]     "ip": "192.168.1.104"
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]   },
+2018-11-08 13:34:52:789 - info: [debug] [XCUITest]   "build": {
+2018-11-08 13:34:52:790 - info: [debug] [XCUITest]     "time": "Oct  9 2018 20:01:22",
+2018-11-08 13:34:52:790 - info: [debug] [XCUITest]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+2018-11-08 13:34:52:790 - info: [debug] [XCUITest]   }
+2018-11-08 13:34:52:790 - info: [debug] [XCUITest] }
+2018-11-08 13:34:52:790 - info: [debug] [XCUITest] WebDriverAgent successfully started after 15701ms
+2018-11-08 13:34:52:791 - info: [debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1541684092791 (21:34:52 GMT+0800 (CST))
+2018-11-08 13:34:52:791 - info: [debug] [XCUITest] Sending createSession command to WDA
+2018-11-08 13:34:52:792 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-11-08 13:34:52:793 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8001/session] with body: {"desiredCapabilities":{"bundleId":"com.iOS.Demo.xinxi1","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+2018-11-08 13:35:08:162 - info: [Appium] Received SIGINT - shutting down
+2018-11-08 13:35:08:179 - info: [XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'
+2018-11-08 13:35:08:551 - info: [HTTP] <-- POST /wd/hub/session - - ms - -
+2018-11-08 13:35:08:554 - info: [HTTP] 
+2018-11-08 13:35:08:558 - error: uncaughtException: write EPIPE date=Thu Nov 08 2018 21:35:08 GMT+0800 (CST), pid=40670, uid=501, gid=20, cwd=/Users/xinxi/Documents/ideaProjcet/AppiumDemo, execPath=/usr/local/bin/node, version=v8.12.0, argv=[/usr/local/bin/node, /usr/local/bin/appium, -a, 127.0.0.1, -p, 4723, --session-override, --relaxed-security, --log, /Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/Log/appium.log], rss=91279360, heapTotal=99667968, heapUsed=89909888, external=95276, loadavg=[16.4248046875, 7.6005859375, 4.47265625], uptime=337259, trace=[column=14, file=net.js, function=WriteWrap.afterWrite, line=868, method=afterWrite, native=false], stack=[Error: write EPIPE,     at WriteWrap.afterWrite (net.js:868:14)]
+2018-11-08 13:35:08:560 - error: uncaughtException: write EPIPE date=Thu Nov 08 2018 21:35:08 GMT+0800 (CST), pid=40670, uid=501, gid=20, cwd=/Users/xinxi/Documents/ideaProjcet/AppiumDemo, execPath=/usr/local/bin/node, version=v8.12.0, argv=[/usr/local/bin/node, /usr/local/bin/appium, -a, 127.0.0.1, -p, 4723, --session-override, --relaxed-security, --log, /Users/xinxi/Documents/ideaProjcet/AppiumDemo/src/main/java/Log/appium.log], rss=91435008, heapTotal=99667968, heapUsed=90054528, external=95300, loadavg=[16.4248046875, 7.6005859375, 4.47265625], uptime=337259, trace=[column=14, file=net.js, function=WriteWrap.afterWrite, line=868, method=afterWrite, native=false], stack=[Error: write EPIPE,     at WriteWrap.afterWrite (net.js:868:14)]
